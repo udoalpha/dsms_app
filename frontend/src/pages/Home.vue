@@ -12,7 +12,7 @@
     </div>
     <pre>{{ $resources.ping }}</pre>
 
-    <Button @click="showDialog = true">Open Dialog</Button>
+    <Button @click="showDialog = true">Open Loud</Button>
     <Dialog title="Title" v-model="showDialog"> Dialog content </Dialog>
   </div>
 </template>
