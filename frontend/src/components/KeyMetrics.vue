@@ -6,7 +6,7 @@
                class="bg-gray-200 rounded-lg w-[164px] h-[76px] md:w-[201px] md:h-[87px] flex flex-col justify-center items-start px-4 py-1 space-y-4">
               <p class="text-gray-700 text-sm font-semibold">{{ metric.name }}</p>
               <p class="text-lg font-bold">
-                <span v-if="metric.value !== 'N/A' && metric.name === 'Total Sales'">$</span>{{ metric.value || 'N/A' }}
+                <span v-if="metric.value !== 'N/A' && metric.name === 'Total Sales'">RWF</span>{{ metric.value || 'N/A' }}
               </p>
           </div>
       </div>

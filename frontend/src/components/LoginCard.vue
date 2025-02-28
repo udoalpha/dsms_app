@@ -9,7 +9,7 @@
         <label for="password" class="block">Password:</label>
         <input type="password" placeholder="Password" class="block rounded-lg w-full px-[16px] py-2 border bg-gray-400" v-model="password" required />
 
-        <button type="submit" class="bg-yellow-400 rounded-lg py-2 w-full font-bold">Login</button>
+        <button type="submit" class="bg-yellow-400 hover:bg-yellow-200 rounded-lg py-2 w-full font-bold">Login</button>
       </form>
       <p v-if="errorMessage" class="text-red-500">{{ errorMessage }}</p>
     </div>
