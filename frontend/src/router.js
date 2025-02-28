@@ -31,6 +31,7 @@ const routes = [
     name: 'metrics',
     component: () => import('@/pages/key_metrics.vue'),
   }
+  
 ]
 
 let router = createRouter({
