@@ -1,5 +1,11 @@
+<script setup>
+  // import Navbar from '@/pages/Navbar.vue'
+  import Product from '@/components/ProductCard.vue'
+</script>
+
 <template>
   <div>
-    <router-view />
+    <Product />
+    <!-- <router-view /> -->
   </div>
 </template>
